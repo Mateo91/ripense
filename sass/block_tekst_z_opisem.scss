@@ -1,0 +1,35 @@
+.block_tekst_z_opisem{
+    max-width: 800px;
+	margin: 0 auto 50px;
+
+    @media (max-width: 992px){
+        padding: 0 20px;
+    }
+
+
+    .title {
+        margin: 0;
+        padding: 0;
+        font-size: 53px;
+        color: #211f1d;
+        font-family: 'kumlien-pro';
+        line-height: 50px;
+
+        &:before{
+            display: none;
+        }
+    }
+
+    .content{
+        color: #211f1d;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 300;
+        border-top: 1px solid #211f1d;
+        padding-top: 10px;
+        font-family: Helvetica Neue,Helvetica,sans-serif;
+        letter-spacing: .02em;
+        font-weight: 400;
+        margin-top: 10px;
+    }
+}

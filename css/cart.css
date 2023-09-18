@@ -1,0 +1,10 @@
+.woocommerce-cart-form table {
+  width: 100%;
+}
+.woocommerce-cart-form table tr td {
+  border: 1px solid black;
+  padding: 20px;
+}
+.woocommerce-cart-form table tr td img {
+  max-width: 100px;
+}

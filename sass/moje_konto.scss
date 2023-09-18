@@ -1,0 +1,126 @@
+.woocommerce-MyAccount-navigation{
+    ul{
+        padding: 0;
+        margin: 30px 0 50px 0;
+        list-style-type: none;
+        display: block;
+
+        li{
+            a{
+                font-size: 15px;
+                line-height: 23px;
+                color: #211f1d;
+                margin: 0;
+                padding: 10px 0;
+                font-weight: 400;
+                letter-spacing: -0.015em;
+                border-top: 1px solid #211f1d;
+                display: block;
+            }
+
+
+        }
+    }
+}
+
+.woocommerce-form-row{
+    position: relative;
+
+    &.woocommerce-invalid-required-field{
+        input{
+            border-color: $error;
+        }
+    }
+
+    &.title{
+        font-size: 15px;
+        line-height: 23px;
+        color: #211f1d;
+        padding-top: 0.5em;
+        font-weight: 400;
+        letter-spacing: -0.015em;
+    }
+
+    label{
+
+        position: absolute;
+        color: #707070;
+        font-weight: 400;
+        font-size: 12px;
+        left: 23px;
+        top: 16px;
+        transition: 0.2s;
+
+        &.active{
+            font-size: 9px;
+            left: 23px;
+            top: 6px;
+            z-index: 9;
+        }
+    }
+
+    input,select{
+        height: 48px;
+        padding: 20px 10px 10px 23px;
+        font-family: Helvetica;
+        font-size: 14px;
+        border: 1px solid #d6d0c8;
+        border-radius: 5px;
+    }
+}
+
+.woocommerce-form-login,.woocommerce-form-register{
+    .woocommerce-button{
+        max-width: 400px;
+        width: 100%;
+    }
+}
+
+
+
+.woocommerce-MyAccount-content{
+    position: relative;
+}
+
+label{
+    &.woocommerce-form__label-for-checkbox{
+        display: flex;
+        align-items: center;
+        margin-bottom: 16px;
+    }
+}
+
+.woocommerce-account{
+    article{
+        max-width: 1300px;
+        margin: auto;
+        padding: 0 20px;
+
+        h2{
+            font-size: 15px;
+            line-height: 23px;
+            color: #211f1d;
+            margin: 6rem 0 2rem;
+            padding-top: 0.5em;
+            font-weight: 400;
+            letter-spacing: -.015em;
+            border-top: 1px solid #211f1d;
+        }
+    }
+
+}
+
+.woocommerce-ResetPassword{
+    p{
+        &:first-child{
+            font-size: 15px;
+            line-height: 23px;
+            color: #211f1d;
+            margin: 6rem 0 2rem;
+            padding-top: 0.5em;
+            font-weight: 400;
+            letter-spacing: -0.015em;
+            border-top: 1px solid #211f1d;
+        }
+    }
+}

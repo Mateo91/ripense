@@ -1,0 +1,30 @@
+.block_wiecej_tekstu{
+    padding: 50px;
+
+    @media(max-width:1199px){
+       padding: 50px 0;
+    }
+
+    .title{
+        @include title;
+    }
+
+    .content{
+        font-size: 14px;
+        color: black;
+        line-height: 26px;
+        font-weight: 300;
+        margin-bottom: 50px;
+    }
+
+    .more{
+        color: $pomarancz;
+        font-size: 16px;
+        font-weight: 600;
+
+        &:hover{
+            color: black;
+            text-decoration: none;
+        }
+    }
+}

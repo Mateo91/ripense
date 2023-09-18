@@ -1,0 +1,29 @@
+/*!
+Theme Name: Bokserki
+Author: Mateusz Majewski
+Version: 1.0
+*/
+
+
+
+@import 'sass/variables';
+
+@import 'sass/default';
+@import 'sass/header'; 
+@import 'sass/footer'; 
+
+@import 'sass/block_slider';
+@import 'sass/block_lista_produktow';
+@import 'sass/block_wiecej_tekstu';
+
+@import 'sass/products';
+@import 'sass/product'; 
+@import 'sass/cart';
+@import 'sass/checkout';
+@import 'sass/page';
+@import 'sass/moje_konto';
+@import 'sass/podsumowanie';
+@import 'sass/strona_z_tlem.scss';
+@import 'sass/block_tekst_z_opisem';
+@import 'sass/block_galeria_zdjec';
+@import 'sass/strona_tekstowa.scss';

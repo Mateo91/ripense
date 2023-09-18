@@ -1,0 +1,165 @@
+.woocommerce-order-received{
+
+    @media(max-width:991px){
+        padding: 0 10px;
+    }
+
+    .woocommerce-order{
+        max-width: 800px;
+        margin: 50px auto ;
+    }
+
+    .woocommerce-notice {
+        font-size: 15px;
+        line-height: 23px;
+        color: #211f1d;
+        margin: 0rem 0 2rem;
+        padding-top: 0.5em;
+        font-weight: 400;
+        letter-spacing: -0.015em;
+        border-top: 1px solid #211f1d;
+    }
+
+    .woocommerce-order-overview{
+        list-style-type: none;
+        padding: 0;
+        margin: 0 0 50px 0;
+
+        li{
+            font-size: 12px;
+            line-height: 23px;
+            color: #211f1d;
+            font-weight: 400;
+        }
+    }
+
+    .woocommerce-order-details{
+
+        h2{
+            font-size: 15px;
+            line-height: 23px;
+            color: #211f1d;
+            margin: 0rem 0 2rem;
+            padding-top: 0.5em;
+            font-weight: 400;
+            letter-spacing: -0.015em;
+            border-top: 1px solid #211f1d;
+        }
+
+        table{
+            width: 100%;    
+    
+            tbody{
+                tr{
+                    td{
+                        padding-bottom: 20px;
+                        font-size: 14px;
+                        font-weight: 600;
+                        font-family: Helvetica;
+    
+                        &.product-total{
+                            text-align: right;
+                        }
+    
+                        .product_image{
+                            border: 1px solid #d6d0c8;
+                            border-radius: 5px;
+                            position: relative;
+                            display: inline-block;
+                            padding: 5px;
+                            img{
+                                max-width: 60px;
+                            }
+    
+                            .quantity{
+                                background: #d6d0c8;
+                                position: absolute;
+                                font-size: 10px;
+                                width: 20px;
+                                height: 20px;
+                                display: grid;
+                                place-items: center;
+                                border-radius: 50%;
+                                top: -10px;
+                                right: -10px;
+                                padding: 2px 0;
+                            }
+                        }
+
+                        ul.wc-item-meta{
+                            padding: 0;
+                            margin: 0;
+                            li{
+                                display: grid;
+                                grid-template-columns: repeat(2, 1fr);
+                                grid-template-rows: 1fr;
+                                grid-column-gap: 0px;
+                                grid-row-gap: 0px;
+        
+                                strong,p{
+                                    color: #211f1d;
+                                    opacity: 0.7;
+                                    font-weight: 600;
+                                    font-size: 12px;
+                                    margin: 0;
+        
+                                    span{
+                                        display: inline-block;
+                                    }
+                                }
+                                
+                            }
+                        }
+        
+                        &:first-child{
+                        }
+        
+                        &:last-child{
+                        }
+        
+                    }
+                }
+            }
+    
+            tfoot{
+                tr{
+                    th{
+                        padding-bottom: 20px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        font-family: Helvetica;
+                    }
+    
+                    td{
+                        padding-bottom: 20px;
+                        font-size: 14px;
+                        font-weight: 600;
+                        font-family: Helvetica;
+                        text-align: right;
+        
+                    }
+                }
+            }
+        }
+    }
+}
+
+.woocommerce-customer-details{
+    .woocommerce-column__title{
+        font-size: 15px;
+        line-height: 23px;
+        color: #211f1d;
+        margin: 0rem 0 2rem;
+        padding-top: 0.5em;
+        font-weight: 400;
+        letter-spacing: -0.015em;
+        border-top: 1px solid #211f1d;
+    }
+
+    address{
+        padding-bottom: 20px;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: Helvetica;
+    }
+}

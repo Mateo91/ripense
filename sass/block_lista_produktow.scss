@@ -1,0 +1,36 @@
+.block_lista_produktow{
+	padding: 0 0px 0px 0px;
+	margin: 0 20px;
+
+    .title{
+        @include title;
+        margin: 50px 0;
+        @media(max-width:992px){
+            margin: 50px 0 20px 0;
+        }
+    }
+
+    .more{
+        color: $pomarancz;
+        font-weight: 600;
+        font-size: 16px;
+        text-transform: uppercase;
+        text-decoration: none;
+
+        &:hover{
+            color: black;
+        }
+
+        @media(max-width:992px){
+            margin: 0px 0 20px 0;
+        }
+    }
+
+    .product_list{
+        margin: 0 -20px;
+
+        @media(max-width:992px){
+            margin: 0 -20px;
+        }
+    }
+}

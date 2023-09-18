@@ -1,0 +1,36 @@
+.block_galeria_zdjec{
+    max-width: 90%;
+    margin-left: auto;
+
+    @media (max-width: 992px){
+        max-width: 100%;
+        padding: 0 20px;
+    }
+
+    .gallery_cont{
+        .image{
+            margin-bottom: 40px;
+            &.small{
+                @media (min-width: 992px){
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        max-width: 70%;
+                    }  
+                } 
+            }
+
+            @media (max-width: 992px){
+                &:nth-child(2n){
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        max-width: 70%;
+                    }  
+                }
+            } 
+        }
+    }
+}

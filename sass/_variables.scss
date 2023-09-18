@@ -1,0 +1,68 @@
+$sporting-font-path: "fonts/sporting";
+
+@font-face {
+    // This is parsed as a normal function call that takes a quoted string.
+    src: url("#{$sporting-font-path}/Sporting_Grotesque-Regular_web.woff2") format("woff2");
+
+    font-family: "Sporting_Grotesque";
+    font-weight: 500;
+}
+
+@font-face {
+    // This is parsed as a normal function call that takes a quoted string.
+    src: url("#{$sporting-font-path}/Sporting_Grotesque-Bold_web.woff2") format("woff2");
+
+    font-family: "Sporting_Grotesque";
+    font-weight: 700;
+}
+@import url("https://use.typekit.net/uyh4pvs.css");
+$font :  "Sporting_Grotesque", sans-serif;
+$opoznienie : 1000;
+
+@mixin placeholder {
+    &::-webkit-input-placeholder {@content}
+    &:-moz-placeholder           {@content}
+    &::-moz-placeholder          {@content}
+    &:-ms-input-placeholder      {@content}  
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translate3d(0, -20%, 0);
+	}
+	to {
+		opacity: 1;
+		transform: translate3d(0, 0, 0);
+	}
+}
+
+@keyframes hideDiv {
+	0%   {display: block; opacity: 1;}
+	95%  {opacity: 1; display: block;}
+	100% {opacity: 0; display: none;}
+}
+
+@keyframes left_right {
+	0%   {left: -100%;}
+	100% {left:0%;}
+}
+
+@keyframes right_left {
+	0%   {left: 0%;}
+	100% {left:100%;}
+}
+
+// kolory
+$pomarancz : #779fba;
+$error : #e74a3b;
+$success: #1cc88a;
+
+@mixin title{
+	font-size: 1.8rem;
+	color: black;
+	line-height: 38px;
+	margin-bottom: 40px;
+	font-weight: 400;
+	line-height: 2.5;
+}
